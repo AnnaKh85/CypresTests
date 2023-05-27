@@ -1,0 +1,18 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashboardTest": "npm run test -- --record --key 7dc2a2be-130b-4004-b3a9-e9fde2c5ba3b"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
